@@ -48,8 +48,6 @@ Step 6: Publish the website in the given URL.
     <input type="button" value="2" onclick="addToDisplay('2')">
     <input type="button" value="3" onclick="addToDisplay('3')">
     <input type="button" value="+" onclick="addToDisplay('+')">
-~~~
-~~~
     <input type="button" id="clear" value="C" onclick="clearDisplay()">
 </div>
 </body>
@@ -61,6 +59,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+~~~
+~~~
 #calculator {
     border: 2px solid #b616a6;
     border-radius: 5px;
