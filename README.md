@@ -32,8 +32,6 @@ Step 6: Publish the website in the given URL.
         <h2>Niranjana devi S[212221220036]</h2>
     </div>
 <div id="calculator">
-   <input type="text" id="display" >
-    <br><br><br>
     <input type="button" value="7" onclick="addToDisplay('7')">
     <input type="button" value="8" onclick="addToDisplay('8')">
     <input type="button" value="9" onclick="addToDisplay('9')">
@@ -48,7 +46,6 @@ Step 6: Publish the website in the given URL.
     <input type="button" value="2" onclick="addToDisplay('2')">
     <input type="button" value="3" onclick="addToDisplay('3')">
     <input type="button" value="+" onclick="addToDisplay('+')">
-    <input type="button" id="clear" value="C" onclick="clearDisplay()">
 </div>
 </body>
 </html>
@@ -77,8 +74,7 @@ input[type="button"] {
     height: 60px;
     font-size: 25px;
     margin: 5px;
-}
-input[type="button"]:hover {
+}input[type="button"]:hover {
     background-color: #eee;}
 #clear {
     background-color: rgb(22, 46, 231);
