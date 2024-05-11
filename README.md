@@ -48,14 +48,8 @@ Step 6: Publish the website in the given URL.
     <input type="button" value="2" onclick="addToDisplay('2')">
     <input type="button" value="3" onclick="addToDisplay('3')">
     <input type="button" value="+" onclick="addToDisplay('+')">
-    <br>
-    <input type="button" value="0" onclick="addToDisplay('0')">
 ~~~
 ~~~
-    <input type="button" value="=" onclick="calculate()">
-    <input type="button" value="*" onclick="addToDisplay('*')">
-    <input type="button" value="%" onclick="addToDisplay('%')">
-    <br>
     <input type="button" id="clear" value="C" onclick="clearDisplay()">
 </div>
 </body>
@@ -66,18 +60,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #ff668c;
-    flex-direction: column;
 }
 #calculator {
     border: 2px solid #b616a6;
     border-radius: 5px;
     padding: 60px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #666bff;
 }
 input[type="text"] {
     width: 100%;
@@ -90,10 +77,6 @@ input[type="button"] {
     height: 60px;
     font-size: 25px;
     margin: 5px;
-    cursor: pointer;
-    border-radius: 10px;
-    font-weight:bolder;
-    border: 4px solid rgb(13, 15, 14);
 }
 input[type="button"]:hover {
     background-color: #eee;}
@@ -105,15 +88,9 @@ input[type="button"]:hover {
     margin-right: 60px;
     border: 4px solid black;
 }
-.name{
-margin-bottom: 50px;
-}
 ## index.js
 function addToDisplay(value) {
     document.getElementById('display').value += value;
-}
-function clearDisplay() {
-    document.getElementById('display').value = '';
 }
 function calculate() {
     try {
@@ -126,6 +103,5 @@ function calculate() {
 ## OUTPUT:
 ![Screenshot 2024-04-26 083230](https://github.com/niranjanadevi-s/Calc/assets/141748873/e25642d9-ab51-4c9f-90d0-def4cf865b93)
 ![Screenshot 2024-04-26 083256](https://github.com/niranjanadevi-s/Calc/assets/141748873/5b70906b-aed7-419d-986e-44531c449a11)
-
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
