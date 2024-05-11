@@ -84,10 +84,6 @@ input[type="button"]:hover {
     background-color: rgb(22, 46, 231);
     color: #fff;
 }
-#display{
-    margin-right: 60px;
-    border: 4px solid black;
-}
 ## index.js
 function addToDisplay(value) {
     document.getElementById('display').value += value;
@@ -101,7 +97,7 @@ function calculate() {
 }
 ~~~
 ## OUTPUT:
-![Screenshot 2024-04-26 083230](https://github.com/niranjanadevi-s/Calc/assets/141748873/e25642d9-ab51-4c9f-90d0-def4cf865b93)
-![Screenshot 2024-04-26 083256](https://github.com/niranjanadevi-s/Calc/assets/141748873/5b70906b-aed7-419d-986e-44531c449a11)
+![image](https://github.com/niranjanadevi-s/Calc/assets/141748873/af0eeba0-efcc-4468-a99d-8f109fddbef8)
+![image](https://github.com/niranjanadevi-s/Calc/assets/141748873/d7d1a90b-bb6c-43a9-9dcc-a44f59c92aa2)
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
