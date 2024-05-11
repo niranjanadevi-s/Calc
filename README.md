@@ -61,14 +61,14 @@ body {
     border-radius: 5px;
     padding: 60px;
 }
-~~~
-~~~
 input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 18px;
 }
+~~~
+~~~
 input[type="button"] {
     width: 60px;
     height: 60px;
