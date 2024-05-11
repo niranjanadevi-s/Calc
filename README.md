@@ -12,8 +12,6 @@ Step 3: Use CSS for creating attractive colors.
 Step 4: Write JavaScript program for implementing five different operations.
 
 Step 5: Validate the HTML and CSS code.
-
-Step 6: Publish the website in the given URL.
 ## PROGRAM :
 ## index.html
 ~~~
@@ -67,12 +65,12 @@ input[type="text"] {
     margin-bottom: 10px;
     font-size: 18px;
 }
-~~~
-~~~
 input[type="button"] {
     width: 60px;
     height: 60px;
     font-size: 25px;
+~~~
+~~~
     margin: 5px;
 }input[type="button"]:hover {
     background-color: #eee;}
