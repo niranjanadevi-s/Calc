@@ -56,13 +56,13 @@ body {
     align-items: center;
     justify-content: center;
 }
-~~~
-~~~
 #calculator {
     border: 2px solid #b616a6;
     border-radius: 5px;
     padding: 60px;
 }
+~~~
+~~~
 input[type="text"] {
     width: 100%;
     padding: 10px;
